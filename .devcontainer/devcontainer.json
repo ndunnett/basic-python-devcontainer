@@ -1,5 +1,5 @@
 {
-	"name": "Python",
+  "name": "Python",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3.11",
   "hostRequirements": {
     "cpus": 1,
@@ -9,7 +9,7 @@
   "onCreateCommand": {},
   "updateContentCommand": {},
   "postCreateCommand": {
-    "pip-install": "pip install -r requirements.txt",
+    "pip-install": "pip install -r requirements.txt"
   },
   "postStartCommand": {},
   "postAttachCommand": {},
@@ -26,11 +26,11 @@
   // IDE settings
   // https://containers.dev/implementors/json_reference/#port-attributes
   "customizations": {
-		"vscode": {
-			"settings": {},
-			"extensions": [
+    "vscode": {
+      "settings": {},
+      "extensions": [
         "ms-python.python"
-      ],
-		}
-  },
+      ]
+    }
+  }
 }
