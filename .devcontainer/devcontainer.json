@@ -9,7 +9,7 @@
   "onCreateCommand": {},
   "updateContentCommand": {},
   "postCreateCommand": {
-    "pip-install": "pip install -r requirements.txt"
+    "pip-install": "pip install --user --no-input -r requirements.txt"
   },
   "postStartCommand": {},
   "postAttachCommand": {},
